@@ -6,7 +6,8 @@ Given a set of points in a 2D plane, a point is said to satisfy the **Proximity 
 
  t = 2 * i / tCount  - 1,
  
- i = 0,  1,  2,  3, …,  tCount
+ i = 0,  1,  2,  3, ........tCount
+
 The computation must identify at least 3 points satisfying the criteria for each `t` value, and if found, further evaluation for that specific `t` should stop.
 
 ### Input and Output Specifications
