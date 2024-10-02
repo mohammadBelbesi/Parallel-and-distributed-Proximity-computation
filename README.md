@@ -5,6 +5,7 @@ This research project focuses on a **parallel implementation** of proximity calc
 Given a set of points in a 2D plane, a point is said to satisfy the **Proximity Criteria** if there exist at least `K` points with a distance less than a specified value `D` from it. The task is to evaluate this criterion for `tCount + 1` values of parameter `t`:
 
  t = 2 * i / tCount  - 1,
+ 
  i = 0,  1,  2,  3, …,  tCount
 The computation must identify at least 3 points satisfying the criteria for each `t` value, and if found, further evaluation for that specific `t` should stop.
 
@@ -89,6 +90,7 @@ There were no 3 points found for any t.
 The x and y coordinates for each point are calculated using the following equations:
 
 x = ((x2 – x1) / 2 ) * sin (t*π /2) + (x2 + x1) / 2) 
+
 y = a*x + b
 
 
